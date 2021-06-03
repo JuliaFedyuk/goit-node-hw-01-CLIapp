@@ -1,0 +1,19 @@
+{
+  "name": "goit-node-hw-01-cliapp",
+  "version": "1.0.0",
+  "description": "cli app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "author": "Julia Fedyuk <fedyuk.julia@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "yargs": "^17.0.1"
+  }
+}
